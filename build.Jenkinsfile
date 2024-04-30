@@ -1,13 +1,9 @@
-
 pipeline {
     agent any
-
     stages {
-        stage('Build') {
+        stage('Example') {
             steps {
-                sh 'ls'
-                sh 'echo building...'
-                sh 'echo Hello Muhamed Joulani groovy'
+                echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
             }
         }
     }
