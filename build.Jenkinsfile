@@ -7,7 +7,7 @@ pipeline {
             steps {
                 sh 'ls'
                 sh 'echo building...'
-                sh 'echo Hello Muhamed Joulani'
+                sh 'echo Hello Muhamed Joulani groovy'
             }
         }
     }
